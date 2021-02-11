@@ -1,0 +1,73 @@
+h1{
+  color:black;
+  text-align: center;
+  background-color: darkgray;
+  display: flexbox;
+}
+h3{
+ text-align:center;
+ background:darkgray;
+}
+
+p{
+ background-color: darkgray;
+ text-align: center;
+ 
+}
+
+section{
+ text-align: center;
+}
+
+.ul{
+display:incline-flex;
+}
+ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: #333;
+ border-radius: 10px;
+ text-align: center;
+ 
+}
+li {
+ border-radius: 10px solid;
+ float: left;
+ width: 25%;
+ 
+}
+li a {
+ display: block;
+ color: white;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+li a:hover {
+ background-color: darkgray;
+}
+
+img {
+   max-width: 20%;
+   display: flex;
+   justify-content: center;
+   height: auto;
+   margin: 0 auto;
+ 
+ }
+
+figure{
+ text-align: center;
+}
+
+@media only screen and (max-width: 900px) 
+{ body{
+   background-color: darkgray;
+   }
+}
+   
+
+
+
+
